@@ -9,13 +9,12 @@ Estimates Land Surface Temperature (LST) in Kebumen Regency using MODIS or Lands
 - Uses MOD11A2 or Landsat thermal bands (e.g., Band 10)
 - Converts brightness temperature to Celsius
 - Filters for cloud-free data and specific dates
-- Applies scaling factors (if needed)
 
 ### Area of Interest:
-Kebumen Regency (defined geometry or imported shapefile)
+Kebumen Regency (shapefile)
 
 ### Output:
-Spatial map showing land surface temperature distribution, useful for heat monitoring and urban-rural thermal contrast.
+Spatial map showing land surface temperature distribution, useful for heat monitoring and urban rural thermal contrast.
 
 ## NDVI_Kebumen_Kemarau.js
 
@@ -65,5 +64,5 @@ Analyzes vegetation moisture condition in Pati Regency using Moisture Vegetation
 AOI with polygon area near Pati Regency
 
 ### Output:
-MVI raster indicating vegetation moisture variation — useful for early drought detection or crop monitoring.
+MVI raster indicating vegetation moisture variation useful for detection mangrove area
 
